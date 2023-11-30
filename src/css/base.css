@@ -6,6 +6,7 @@
 
   --secondary-color-1: #0d5c63;
   --light-text-color: #ffffff;
+  --bg: #fafafa;
   --primary-color: #ff7b47;
 
   --transition-duration: 250ms;
@@ -36,7 +37,7 @@ body {
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
-  color: var(--text);
+  color: var(--second-text-color);
   background-color: var(--main-bg);
 }
 
@@ -59,8 +60,8 @@ body {
 @media (min-width: 1440px) {
   .container {
     max-width: 1440px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 195px;
+    padding-right: 195px;
   }
 }
 
